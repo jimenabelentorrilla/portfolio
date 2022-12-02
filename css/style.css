@@ -33,10 +33,10 @@ i.fa:hover {
 }
 
 .cv {
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 15px;
+    font-weight: 700;
     border: #f5576c solid 1px;
-    padding: 12px;
+    padding: 10px;
     border-radius: 50px;
     color: #f5576c;
 }
