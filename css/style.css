@@ -20,7 +20,8 @@ body {
     display: flex;
     padding-top: 45px;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 i.fa {
