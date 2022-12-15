@@ -154,17 +154,19 @@ i.fa:hover {
     font-size: 20px;
     font-weight: 700;
     font-family: monospace;
-    transition: .3s;
-    -webkit-box-shadow: -10px 32px 24px -28px rgba(0, 0, 0, 1);
-    -moz-box-shadow: -10px 32px 24px -28px rgba(0, 0, 0, 1);
-    box-shadow: -10px 32px 24px -28px rgba(0, 0, 0, 1);
+    
+    
     height: 150px;
     width: 250px;
     color: #EEEEEE;
     padding: 10px;
 }
 
-.skills_flex-flex:hover {
+
+.skills-icon{
+    transition: .3s;
+}
+.skills-icon:hover{
     transform: scale(1.05);
 }
 
