@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
@@ -25,10 +25,19 @@
                         <div>
                             <img class="code_white" src="./css/assets/code_white.svg">
                         </div>
+                        <div>
+                            <ul class="lista_sections">
+                                <li><a class="lista_li" href="#sobremi">Sobre mi</a></li>
+                                <li><a class="lista_li" href="#proyectos">Proyectos</a></li>
+                                <li><a class="lista_li" href="#skills">Skills</a></li>
+
+                            </ul>
+                        </div>
+
                         <span>
                             <a href="https://github.com/jimenabelentorrilla" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
                             <a href="https://www.linkedin.com/in/jimena-belen-torrilla/" target="_blank" style="color: white;"><i class="fa-brands fa fa-linkedin fa-2xl"></i></a>
-                            <a href="./css/assets/Cv_Torrilla_Jimena_Belen.pdf" target="_blank" class="cv"><span>Descargar CV<i class="fa-solid fa-file-arrow-down fa fa-2x1 fa-shake" style="--fa-animation-duration: 4s;  --fa-fade-opacity: 0.9;"></i></span></a>
+                            <a href="./css/assets/Cv_Torrilla_Jimena_Belen.pdf" target="_blank" class="cv"><span>Descargar CV<i class="fa-solid fa-file-arrow-down fa fa-2x1 fa-shake" style="--fa-animation-duration: 2s;  --fa-fade-opacity: 0.6;"></i></span></a>
                         </span>
                     </div>
                 </nav>
@@ -50,10 +59,10 @@
         </div>
         <!----------- Cierre de CARD ---------------------->
         <!----------- Comienzo de SKILLS ------------------>
-        <div class="row row3">
+        <div id="skills" class="row row3">
             <div class="col-lg-12">
                 <div>
-                    <h3 class="skills_titulo">Skills</h3>
+                    <h3 class="skills_titulo">Tecnologías</h3>
                     <div class="skills_flex">
                         <div class="skills_flex-flex">
                             <img class="skills-icon" src="./css/assets/skills/html5_icon.png"> <span>HTML</span>
@@ -78,18 +87,12 @@
             </div>
         </div>
 
-
-
-
-
         <!----------- Cierre de SKILLS ------------------->
 
         <!----------- Comienzo de PROYECTOS -------------->
-        <div class="row row4">
+        <div id="proyectos" class="row row4">
             <div class="col-lg-12">
-                <div id="proyectos">
-                    <h2 class="section2_titulo ">Proyectos</h2>
-                </div>
+                <h2 class="section2_titulo">Proyectos</h2>
             </div>
         </div>
         <!--------- Primer Row de proyectos -------------->
@@ -98,22 +101,34 @@
                 <div class="proyect_flex">
                     <a href="https://fylo-landing-page-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto1.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">FYLO LANDING PAGE</h3>
-                    <p class="proyecto_parrafo">HTML - CSS</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">FYLO LANDING PAGE</h3>
+                        <p class="proyecto_parrafo">HTML - CSS - SASS</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/Fylo-challenge" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://fylo-landing-page-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
             </div>
 
             <div class="col-lg-6">
                 <div class="proyect_flex">
                     <a href="https://interactive-rating-component-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto2.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">INTERACTIVE RATING COMPONENT</h3>
-                    <p class="proyecto_parrafo">HTML - CSS - JAVASCRIPT</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">RATING COMPONENT</h3>
+                        <p class="proyecto_parrafo">HTML - CSS - JAVASCRIPT</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/Interactive-rating-component" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://interactive-rating-component-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
             </div>
         </div>
         <!--------- Segunda Row de proyectos -------------->
@@ -122,22 +137,34 @@
                 <div class="proyect_flex">
                     <a href="https://stats-preview-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto3.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">STATS PREVIEW</h3>
-                    <p class="proyecto_parrafo">HTML - CSS</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">STATS PREVIEW</h3>
+                        <p class="proyecto_parrafo">HTML - CSS - SASS</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/stats-preview" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://stats-preview-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
 
             </div>
             <div class="col-lg-6">
                 <div class="proyect_flex">
                     <a href="https://calculator-js-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto4.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">CALCULADORA</h3>
-                    <p class="proyecto_parrafo">HTML - CSS - JAVASCRIPT</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">CALCULADORA</h3>
+                        <p class="proyecto_parrafo">HTML - CSS - JAVASCRIPT</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/calculator-js" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://calculator-js-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
 
             </div>
         </div>
@@ -147,24 +174,48 @@
                 <div class="proyect_flex">
                     <a href="https://testimonials-grid-section-main-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto5.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">TESTIMONIALS GRID</h3>
-                    <p class="proyecto_parrafo">HTML - CSS</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">TESTIMONIALS GRID</h3>
+                        <p class="proyecto_parrafo">HTML - CSS - SASS</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/testimonials-grid-section-main" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://testimonials-grid-section-main-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
             </div>
             <div class="col-lg-6">
                 <div class="proyect_flex">
                     <a href="https://order-summary-jiment4.netlify.app/" target="_blank"><img class="imagenproyecto" src="./css/assets/proyecto7.jpg"></a>
                 </div>
-
-                <div>
-                    <h3 class="proyecto_titulo">ORDER SUMMARY</h3>
-                    <p class="proyecto_parrafo">HTML - CSS</p>
+                <div class="proyecto_flex">
+                    <div>
+                        <h3 class="proyecto_titulo">ORDER SUMMARY</h3>
+                        <p class="proyecto_parrafo">HTML - CSS</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jimenabelentorrilla/Order-summary" target="_blank" style="color: white;"><i class="fa-brands fa fa-github fa-2xl"></i></a>
+                        <a href="https://order-summary-jiment4.netlify.app/" target="_blank" class="deploy"><span>Ir al sitio</span></a>
+                    </div>
                 </div>
+
             </div>
         </div>
         <!----------- Cierre de PROYECTOS ------------------>
+        <!----------- Comienzo de SOBRE MI ---------------->
+        <div id="sobremi" class="row row8">
+            <div class=" col-lg-12 main_flex">
+                <div class="main">
+                    <h1 class="sobremi_titulo">Sobre mi</h1>
+                    <p class="sobremi_parrafo"><b>Front-end developer</b> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ea quibusdam, error repudiandae vel ullam, illo commodi, quisquam ex enim et! Atque voluptatum sed, nisi assumenda voluptate asperiores
+                        vero necessitatibus? </p>
+                </div>
+            </div>
+
+        </div>
+        <!----------- Cierre de SOBRE MI ---------------------->
     </div>
     <!----------------- Comienzo de FOOTER ----------------->
     <footer>
