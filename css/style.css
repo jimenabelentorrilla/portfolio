@@ -54,6 +54,7 @@ body {
     font-size: 20px;
     padding: 0px 10px;
     font-weight: 400;
+    opacity: 0.8;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -67,7 +68,7 @@ i.fa {
 }
 
 i.fa:hover {
-    opacity: 0.8;
+    opacity: 0.4;
     transition: all .3s ease-out;
 }
 
@@ -126,6 +127,7 @@ i.fa:hover {
     font-size: 20px;
     color: #EEEEEE;
     opacity: 0.8;
+    font-weight: normal;
 }
 
 .main_button {
@@ -191,7 +193,7 @@ i.fa:hover {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px 0px;
 }
 
@@ -199,14 +201,12 @@ i.fa:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: monospace;
-    height: 150px;
-    width: 250px;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #EEEEEE;
-    padding: 10px;
+    opacity: 0.8;
 }
 
 .skills-icon {
@@ -215,6 +215,10 @@ i.fa:hover {
 
 .skills-icon:hover {
     transform: scale(1.05);
+}
+
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
 }
 
 .section2_flex {
