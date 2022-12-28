@@ -258,17 +258,16 @@ i.fa:hover {
 .proyecto_flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .deploy {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
     border: #f5576c solid 1px;
-    padding: 8px 35px;
+    padding: 6px 16px;
     border-radius: 50px;
-    letter-spacing: 0.2;
     color: #f5576c;
 }
 
@@ -285,10 +284,11 @@ i.fa:hover {
     padding-bottom: 2px;
 }
 
-.proyecto_parrafo {
-    color: #f5576c;
-    font-weight: 500;
-    font-size: 18px;
+.proyecto_skills {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 0px;
 }
 
 .footer_bg {
