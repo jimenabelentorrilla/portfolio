@@ -28,13 +28,14 @@ body {
 }
 
 .row5,
+.row8,
+.row9 {
+    padding: 45px 5px;
+}
+
 .row6,
 .row7 {
     padding: 25px 5px;
-}
-
-.row8 {
-    padding: 90px 0px;
 }
 
 .list {
@@ -56,17 +57,16 @@ body {
     font-size: 20px;
     padding: 0px 10px;
     font-weight: 400;
-    transition: .3s;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .lista_li:hover {
-    transform: scale(1.05);
-    color: #EEEEEE;
+    color: #f5576c;
+    text-decoration: none;
 }
 
 i.fa {
-    padding: 0px 15px;
+    padding: 0px 8px;
 }
 
 i.fa:hover {
@@ -76,7 +76,7 @@ i.fa:hover {
 
 .cv {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     border: #f5576c solid 1px;
     padding: 7px 11px;
     border-radius: 50px;
@@ -84,9 +84,9 @@ i.fa:hover {
 }
 
 .cv:hover {
-    transition: all .4s ease-out;
-    opacity: 0.8;
-    color: #f5576c;
+    transition: all .3s ease-in;
+    color: #fafafa;
+    background-color: #f5576c;
 }
 
 .main_flex {
@@ -100,13 +100,18 @@ i.fa:hover {
 .sobremi_titulo {
     color: #FDFDFF;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 45px;
     padding: 10px 0px;
+}
+
+.sobremi_titulo {
+    text-decoration: underline #f5576c;
 }
 
 .skills_titulo {
     text-align: center;
     padding: 30px 0px;
+    text-decoration: underline #f5576c;
 }
 
 .code_white {
@@ -121,8 +126,9 @@ i.fa:hover {
 .footer_parrafo,
 .sobremi_parrafo {
     padding: 10px 0px;
-    font-size: 22px;
+    font-size: 20px;
     color: #EEEEEE;
+    opacity: 0.8;
 }
 
 .main_button {
@@ -168,9 +174,20 @@ i.fa:hover {
     background-size: 300%;
 }
 
+.readMore_flex {
+    display: flex;
+    justify-content: center;
+}
+
 .img_girl {
     width: 360px;
     height: auto;
+}
+
+.tecno_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills_flex {
@@ -203,13 +220,18 @@ i.fa:hover {
     transform: scale(1.05);
 }
 
+.section2_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section2_titulo {
-    padding: 20px 0px;
-    text-align: center;
+    text-decoration: underline #f5576c;
 }
 
 .imagenproyecto {
-    width: 540px;
+    width: 436px;
     height: auto;
     opacity: 0.85;
     padding-bottom: 20px;
@@ -234,7 +256,7 @@ i.fa:hover {
 .proyecto_flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
