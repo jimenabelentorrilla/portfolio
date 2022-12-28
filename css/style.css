@@ -28,14 +28,11 @@ body {
 }
 
 .row5,
+.row6,
+.row7,
 .row8,
 .row9 {
-    padding: 45px 5px;
-}
-
-.row6,
-.row7 {
-    padding: 25px 5px;
+    padding: 45px 55px;
 }
 
 .list {
