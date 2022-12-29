@@ -73,7 +73,7 @@ body {
     background-color: #f5576c;
     transform: scaleX(0);
     transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
+    transition: transform 0.5s ease-out;
 }
 
 .lista_li:hover:after {
@@ -127,14 +127,9 @@ i.fa:hover {
     padding: 10px 0px;
 }
 
-.sobremi_titulo {
-    text-decoration: underline #f5576c;
-}
-
 .skills_titulo {
     text-align: center;
     padding: 30px 0px;
-    text-decoration: underline #f5576c;
 }
 
 .code_white {
@@ -246,10 +241,6 @@ i.fa:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.section2_titulo {
-    text-decoration: underline #f5576c;
 }
 
 .imagenproyecto {
