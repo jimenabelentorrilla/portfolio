@@ -61,6 +61,7 @@ body {
     display: inline-block;
     position: relative;
     text-transform: uppercase;
+    list-style: none;
 }
 
 .lista_li:after {
