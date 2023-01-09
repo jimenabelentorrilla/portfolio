@@ -3,8 +3,9 @@ body {
     scroll-behavior: smooth;
 }
 
-.container-fluid {
-    max-width: 1700px;
+.container {
+    max-width: 1240px;
+    overflow-x: hidden;
 }
 
 .row1 {
@@ -20,19 +21,21 @@ body {
 }
 
 .row3 {
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 .row4 {
     padding: 26px 0px;
 }
 
-.row5,
+.row5 {
+    padding: 10px 55px;
+}
+
 .row6,
 .row7,
-.row8,
-.row9 {
-    padding: 45px 55px;
+.row8 {
+    padding: 70px 55px;
 }
 
 .list {
@@ -86,6 +89,13 @@ body {
     color: #EEEEEE;
 }
 
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
 i.fa {
     padding: 0px 8px;
 }
@@ -119,17 +129,22 @@ i.fa:hover {
 
 .main__encabezado,
 .section2_titulo,
-.skills_titulo,
-.sobremi_titulo {
+.skills_titulo {
     color: #FDFDFF;
     font-weight: 700;
     font-size: 45px;
     padding: 10px 0px;
 }
 
+.sobremi_titulo {
+    padding: 10px 60px;
+    color: #FDFDFF;
+    font-weight: 700;
+    font-size: 45px;
+}
+
 .skills_titulo {
-    text-align: center;
-    padding: 30px 0px;
+    padding: 30px 100px;
 }
 
 .code_white {
@@ -203,18 +218,13 @@ i.fa:hover {
     height: auto;
 }
 
-.tecno_flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .skills_flex {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-evenly;
-    padding: 24px 0px;
+    justify-content: flex-start;
+    padding: 24px 103px;
+    gap: 45px;
 }
 
 .skills_flex-flex {
@@ -269,6 +279,13 @@ i.fa:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+.proyecto_flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
